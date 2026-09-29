@@ -36,28 +36,6 @@ sudo pacman -S gtk3 curl libarchive webkit2gtk-4.1
 ```bash
 sudo dnf install gtk3 libcurl libarchive webkit2gtk4.1
 ```
-
----
-
-## Steps to Run WLM:
-
-1. Download the latest version of WLM.
-2. Open a terminal in the directory where the file has been downloaded (e.g., `~/Downloads`).
-3. Extract the archive and move it to your home directory:
-   ```bash
-   tar -xf WLM_version.tar.gz -C ~/
-   ```
-4. Navigate to the WLM directory:
-   ```bash
-   cd ~/wlm/
-   ```
-5. Run the WLM script:
-   ```bash
-   ./WLM.sh
-   ```
-
-**Note:** Alternatively, you can extract the archive using your file manager, navigate to the Home directory (`~/`), and double-click `WLM.sh` to run it.
-
 ---
 
 ## Features:
