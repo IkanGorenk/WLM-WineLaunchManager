@@ -23,18 +23,18 @@ Wine Launch Manager (WLM) is a GTK3-based application for managing Vanilla Wine 
 
 ### **Debian / Ubuntu / Linux Mint**
 ```bash
-sudo apt install python3-tk python3-pil python3-pil.imagetk
+sudo apt install ibgtk-3-0 libcurl4 libarchive13 libwebkit2gtk-4.1-0
 ```
 
 ### **Arch Linux / Manjaro**
 ```bash
 sudo pacman -Syu
-sudo pacman -S tk python-pillow
+sudo pacman -S gtk3 curl libarchive webkit2gtk-4.1
 ```
 
 ### **Fedora**
 ```bash
-sudo dnf install python3-tkinter python3-pillow
+sudo dnf install gtk3 libcurl libarchive webkit2gtk4.1
 ```
 
 ---
