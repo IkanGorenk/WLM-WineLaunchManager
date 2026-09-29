@@ -61,28 +61,14 @@ sudo dnf install gtk3 libcurl libarchive webkit2gtk4.1
 ![Screenshot WLM](WLM_SS/5.png)
 ### **Settings Menu:**
 
-- **Winecfg Button**: Opens the Wine Vanilla configuration.
-- **Open Wine Prefix Folder**: Opens Wine Prefix Folder.
-- **Uninstaller**: Uninstalls programs installed within Wine.
-- **Wine Explorer**: Opens the file manager or explorer inside Wine.
-- **Refresh**: Just Refresh.
-
----
-
-## How to Uninstall WLM?
-
-### **Safer Method (File Manager):**
-
-Simply delete the `wlm` directory using your file manager:
-
-```
-~/wlm
-```
-
-### **Terminal Method:**
-
-```bash
-rm -rf ~/wlm
-```
+- **View Logs**: Viewing logs of games or apps that currently run with Wine or Proton
+- **Prefix Configuration Manager**: A menu for managing your prefix, such as create, remove, backup as archive and restore.
+- **GOG Library**: A menu to show your GOG library.
+- **Wine Configuration (winecfg)**: Opens up the winecfg menu in your home prefix of Wine.
+- **Open Wine Prefix Folder**: Open your Wine prefix in your home folder.
+- **Uninstall Program**: Uninstall any program in your Wine prefix.
+- **Wine Explorer**: Opens up explorer in your Wine prefix.
+- **Runner Options**: A menu to manage your runner.
+- **Refresh List**: Refresh list of your games.
 
 ---
