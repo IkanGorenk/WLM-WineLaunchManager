@@ -1,6 +1,6 @@
 # WLM - Wine Launch Manager
 
-Wine Launch Manager (WLM) is a Python3-based application for managing Vanilla Wine applications on Linux distributions.
+Wine Launch Manager (WLM) is a GTK3-based application for managing Vanilla Wine applications on Linux distributions.
 
 ---
 
@@ -39,18 +39,6 @@ sudo pacman -S tk python-pillow
 sudo dnf install python3-tkinter python3-pillow
 ```
 
-### **Void Linux**
-```bash
-sudo xbps-install -S
-sudo xbps-install python3-tkinter python3-Pillow
-```
-
-### **Alpine Linux**
-```bash
-sudo apk update
-sudo apk add python3 py3-tkinter py3-pillow
-```
-
 ---
 
 ## Steps to Run WLM:
@@ -74,16 +62,16 @@ sudo apk add python3 py3-tkinter py3-pillow
 
 ---
 
-## WLM Menu & Theme
-![Screenshot WLM](WLM_SS/1.png)
----
-
 ## Features:
 
 - Manage Vanilla Wine applications via a user-friendly GUI.
 - Uninstall applications installed within Wine.
 - Display FPS using GalliumHUD or MangoHUD.
 - Create and manage shortcut lists in the Launcher.
+- GOG Integration.
+- Manage Prefixes for Wine and Proton.
+- Download ProtonGE/ProtonCachyOS within the launcher.
+  
 ---
 ## How to Play?
 1. **Play Button**: Runs the application that has been added to the shortcut list.
