@@ -55,6 +55,12 @@ sudo pacman -S base-devel cmake pkgconf gtk3 libarchive curl nlohmann-json webki
 sudo dnf install gcc-c++ cmake pkgconf-pkg-config gtk3-devel libarchive-devel \
                  libcurl-devel json-devel webkit2gtk4.1-devel
 ```
+Then run the following commands
+```bash
+cmake -S . -B build 
+cmake --build build -j4
+```
+
 ---
 ## Features:
 
