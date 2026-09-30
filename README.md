@@ -37,7 +37,25 @@ sudo pacman -S gtk3 curl libarchive webkit2gtk-4.1
 sudo dnf install gtk3 libcurl libarchive webkit2gtk4.1
 ```
 ---
+### Build it yourself
+Here's the packages that you'll need to have in your system to build WLM on your system
 
+### **Debian 13 / Ubuntu 24.04**
+```bash
+sudo apt install g++ cmake pkg-config libgtk-3-dev libarchive-dev \
+                 libcurl4-openssl-dev nlohmann-json3-dev libwebkit2gtk-4.1-dev
+```
+
+### **Arch Linux**
+```bash
+sudo pacman -S base-devel cmake pkgconf gtk3 libarchive curl nlohmann-json webkit2gtk-4.1
+```
+### **Fedora**
+```bash
+sudo dnf install gcc-c++ cmake pkgconf-pkg-config gtk3-devel libarchive-devel \
+                 libcurl-devel json-devel webkit2gtk4.1-devel
+```
+---
 ## Features:
 
 - Manage Vanilla Wine applications via a user-friendly GUI.
